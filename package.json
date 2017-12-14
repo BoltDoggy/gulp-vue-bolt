@@ -1,0 +1,23 @@
+{
+  "name": "gulp-vue-bolt",
+  "version": "1.0.0",
+  "description": "⚡️ gulp + vue",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lc60005457/gulp-vue-bolt.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lc60005457/gulp-vue-bolt/issues"
+  },
+  "homepage": "https://github.com/lc60005457/gulp-vue-bolt#readme",
+  "dependencies": {
+    "gulp-util": "^3.0.8",
+    "through2": "^2.0.3"
+  }
+}
