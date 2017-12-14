@@ -24,7 +24,7 @@ function gulpVueify(options) {
             this.emit('error', new PluginError(PLUGIN_NAME, 'Bolt need options.compiler'));
             return callback();
         }
-        compiler.compile(file.contents.toString(), file.path, function (err, result) {
+        options.compiler.compile(file.contents.toString(), file.path, function (err, result) {
             if (err) {
                 this.emit('error', new PluginError(PLUGIN_NAME,
                     'In file ' + path.relative(process.cwd(), file.path) + ':\n' + err.message));
